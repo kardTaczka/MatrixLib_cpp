@@ -1,0 +1,24 @@
+# Compiled
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.out
+MatrixApp
+
+# Build
+build/
+out/
+cmake-build-*/
+.vs/
+.cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.user
