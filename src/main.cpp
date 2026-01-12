@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "ComplexNumber.hpp"
 #include "Matrix.hpp"
 #include "SquareMatrix.hpp"
 
@@ -62,6 +61,10 @@ int main() {
 
         mat_a.addColumn({2.0, 2.0, 2.0});
         mat_a.printMatrix();
+
+        mat_a.getValue(1, 1);
+        mat_a.getCol(0);
+        mat_a.getRow(1);
 
         mat_a.transpose();
         mat_a.printMatrix();
