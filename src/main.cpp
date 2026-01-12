@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "Matrix.hpp"
-#include "SquareMatrix.hpp"
+#include "MatrixLib.hpp"
 
 int main() {
     try {
@@ -117,3 +116,4 @@ int main() {
 
     return 0;
 }
+
