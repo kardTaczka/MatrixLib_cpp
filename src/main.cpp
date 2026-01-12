@@ -78,6 +78,10 @@ int main() {
         Matrix<double> result = mat_b * mat_rect; 
         result.printMatrix();
 
+        /*/
+            Uncomment line below to see how the example error works.
+        /*/
+        
         //Matrix<double> error_mat = mat_rect * mat_b;
 
     } catch (const std::exception& e) {
@@ -116,4 +120,5 @@ int main() {
 
     return 0;
 }
+
 
